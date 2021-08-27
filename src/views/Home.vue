@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="gyBox">
-      工业
+      工业rr
     </div>
   </div>
 </template>
