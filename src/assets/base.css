@@ -1,0 +1,80 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1000px;
+  background-color: rgb(5, 35, 63);
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+.el-steps {
+  margin: 15px 0;
+}
+
+.el-step__title {
+  font-size: 13px;
+}
+
+.ql-editor {
+  min-height: 300px;
+}
+
+input {
+  border: 0;
+  /*去掉未选中边框*/
+
+  outline: none;
+  /*去掉选中边框*/
+
+  background-color: rgba(0, 0, 0, 0);
+  /*透明背景色*/
+
+}
+
+button {
+  border: 0;
+  outline: none;
+
+}
+
+
+/* table根据未处理变色 */
+.el-table .warning-row {
+  background: rgb(245, 210, 145);
+}
+
+.el-table .need-row {
+  background: rgb(240, 158, 158);
+}
+
+.el-table .doing-row {
+  background: #a1c8f5;
+}
+
+.el-table .succeed-row {
+  background: #a6e4c0;
+}
+
+.el-table .disable-row {
+  background: #bdb9b9;
+}
